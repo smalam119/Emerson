@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802B05601EE079FD0000A39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B055F1EE079FD0000A39B /* AppDelegate.swift */; };
+		802B05621EE079FD0000A39B /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B05611EE079FD0000A39B /* QuotesViewController.swift */; };
+		802B05651EE079FD0000A39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B05631EE079FD0000A39B /* Main.storyboard */; };
+		802B05671EE079FE0000A39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802B05661EE079FE0000A39B /* Assets.xcassets */; };
+		802B056A1EE079FE0000A39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B05681EE079FE0000A39B /* LaunchScreen.storyboard */; };
+		802B05751EE079FE0000A39B /* EmersonQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */; };
+		802B05801EE079FE0000A39B /* EmersonQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		802B05711EE079FE0000A39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802B05541EE079FD0000A39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802B055B1EE079FD0000A39B;
+			remoteInfo = EmersonQuotes;
+		};
+		802B057C1EE079FE0000A39B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802B05541EE079FD0000A39B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802B055B1EE079FD0000A39B;
+			remoteInfo = EmersonQuotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802B055C1EE079FD0000A39B /* EmersonQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmersonQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B055F1EE079FD0000A39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		802B05611EE079FD0000A39B /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		802B05641EE079FD0000A39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		802B05661EE079FE0000A39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		802B05691EE079FE0000A39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		802B056B1EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmersonQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmersonQuotesTests.swift; sourceTree = "<group>"; };
+		802B05761EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmersonQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmersonQuotesUITests.swift; sourceTree = "<group>"; };
+		802B05811EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802B05591EE079FD0000A39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B056D1EE079FE0000A39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B05781EE079FE0000A39B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802B05531EE079FD0000A39B = {
+			isa = PBXGroup;
+			children = (
+				802B055E1EE079FD0000A39B /* EmersonQuotes */,
+				802B05731EE079FE0000A39B /* EmersonQuotesTests */,
+				802B057E1EE079FE0000A39B /* EmersonQuotesUITests */,
+				802B055D1EE079FD0000A39B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802B055D1EE079FD0000A39B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802B055C1EE079FD0000A39B /* EmersonQuotes.app */,
+				802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */,
+				802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802B055E1EE079FD0000A39B /* EmersonQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				802B055F1EE079FD0000A39B /* AppDelegate.swift */,
+				802B05611EE079FD0000A39B /* QuotesViewController.swift */,
+				802B05631EE079FD0000A39B /* Main.storyboard */,
+				802B05661EE079FE0000A39B /* Assets.xcassets */,
+				802B05681EE079FE0000A39B /* LaunchScreen.storyboard */,
+				802B056B1EE079FE0000A39B /* Info.plist */,
+			);
+			path = EmersonQuotes;
+			sourceTree = "<group>";
+		};
+		802B05731EE079FE0000A39B /* EmersonQuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */,
+				802B05761EE079FE0000A39B /* Info.plist */,
+			);
+			path = EmersonQuotesTests;
+			sourceTree = "<group>";
+		};
+		802B057E1EE079FE0000A39B /* EmersonQuotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */,
+				802B05811EE079FE0000A39B /* Info.plist */,
+			);
+			path = EmersonQuotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802B055B1EE079FD0000A39B /* EmersonQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B05841EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotes" */;
+			buildPhases = (
+				802B05581EE079FD0000A39B /* Sources */,
+				802B05591EE079FD0000A39B /* Frameworks */,
+				802B055A1EE079FD0000A39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmersonQuotes;
+			productName = EmersonQuotes;
+			productReference = 802B055C1EE079FD0000A39B /* EmersonQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802B056F1EE079FE0000A39B /* EmersonQuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B05871EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesTests" */;
+			buildPhases = (
+				802B056C1EE079FE0000A39B /* Sources */,
+				802B056D1EE079FE0000A39B /* Frameworks */,
+				802B056E1EE079FE0000A39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802B05721EE079FE0000A39B /* PBXTargetDependency */,
+			);
+			name = EmersonQuotesTests;
+			productName = EmersonQuotesTests;
+			productReference = 802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802B057A1EE079FE0000A39B /* EmersonQuotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802B058A1EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesUITests" */;
+			buildPhases = (
+				802B05771EE079FE0000A39B /* Sources */,
+				802B05781EE079FE0000A39B /* Frameworks */,
+				802B05791EE079FE0000A39B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802B057D1EE079FE0000A39B /* PBXTargetDependency */,
+			);
+			name = EmersonQuotesUITests;
+			productName = EmersonQuotesUITests;
+			productReference = 802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802B05541EE079FD0000A39B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = smalam119;
+				TargetAttributes = {
+					802B055B1EE079FD0000A39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U8E3GD9MRV;
+						ProvisioningStyle = Automatic;
+					};
+					802B056F1EE079FE0000A39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U8E3GD9MRV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 802B055B1EE079FD0000A39B;
+					};
+					802B057A1EE079FE0000A39B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U8E3GD9MRV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 802B055B1EE079FD0000A39B;
+					};
+				};
+			};
+			buildConfigurationList = 802B05571EE079FD0000A39B /* Build configuration list for PBXProject "EmersonQuotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802B05531EE079FD0000A39B;
+			productRefGroup = 802B055D1EE079FD0000A39B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802B055B1EE079FD0000A39B /* EmersonQuotes */,
+				802B056F1EE079FE0000A39B /* EmersonQuotesTests */,
+				802B057A1EE079FE0000A39B /* EmersonQuotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802B055A1EE079FD0000A39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B056A1EE079FE0000A39B /* LaunchScreen.storyboard in Resources */,
+				802B05671EE079FE0000A39B /* Assets.xcassets in Resources */,
+				802B05651EE079FD0000A39B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B056E1EE079FE0000A39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B05791EE079FE0000A39B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802B05581EE079FD0000A39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B05621EE079FD0000A39B /* QuotesViewController.swift in Sources */,
+				802B05601EE079FD0000A39B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B056C1EE079FE0000A39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B05751EE079FE0000A39B /* EmersonQuotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802B05771EE079FE0000A39B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802B05801EE079FE0000A39B /* EmersonQuotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802B05721EE079FE0000A39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802B055B1EE079FD0000A39B /* EmersonQuotes */;
+			targetProxy = 802B05711EE079FE0000A39B /* PBXContainerItemProxy */;
+		};
+		802B057D1EE079FE0000A39B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802B055B1EE079FD0000A39B /* EmersonQuotes */;
+			targetProxy = 802B057C1EE079FE0000A39B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		802B05631EE079FD0000A39B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802B05641EE079FD0000A39B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		802B05681EE079FE0000A39B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				802B05691EE079FE0000A39B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		802B05821EE079FE0000A39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		802B05831EE079FE0000A39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		802B05851EE079FE0000A39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		802B05861EE079FE0000A39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		802B05881EE079FE0000A39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes";
+			};
+			name = Debug;
+		};
+		802B05891EE079FE0000A39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes";
+			};
+			name = Release;
+		};
+		802B058B1EE079FE0000A39B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EmersonQuotes;
+			};
+			name = Debug;
+		};
+		802B058C1EE079FE0000A39B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U8E3GD9MRV;
+				INFOPLIST_FILE = EmersonQuotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EmersonQuotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802B05571EE079FD0000A39B /* Build configuration list for PBXProject "EmersonQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B05821EE079FE0000A39B /* Debug */,
+				802B05831EE079FE0000A39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802B05841EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B05851EE079FE0000A39B /* Debug */,
+				802B05861EE079FE0000A39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		802B05871EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B05881EE079FE0000A39B /* Debug */,
+				802B05891EE079FE0000A39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		802B058A1EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802B058B1EE079FE0000A39B /* Debug */,
+				802B058C1EE079FE0000A39B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802B05541EE079FD0000A39B /* Project object */;
+}
