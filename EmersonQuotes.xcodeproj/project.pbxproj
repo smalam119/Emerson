@@ -1,537 +1,1480 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		802B05601EE079FD0000A39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B055F1EE079FD0000A39B /* AppDelegate.swift */; };
-		802B05621EE079FD0000A39B /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B05611EE079FD0000A39B /* QuotesViewController.swift */; };
-		802B05651EE079FD0000A39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B05631EE079FD0000A39B /* Main.storyboard */; };
-		802B05671EE079FE0000A39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802B05661EE079FE0000A39B /* Assets.xcassets */; };
-		802B056A1EE079FE0000A39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 802B05681EE079FE0000A39B /* LaunchScreen.storyboard */; };
-		802B05751EE079FE0000A39B /* EmersonQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */; };
-		802B05801EE079FE0000A39B /* EmersonQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		802B05711EE079FE0000A39B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B05541EE079FD0000A39B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 802B055B1EE079FD0000A39B;
-			remoteInfo = EmersonQuotes;
-		};
-		802B057C1EE079FE0000A39B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 802B05541EE079FD0000A39B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 802B055B1EE079FD0000A39B;
-			remoteInfo = EmersonQuotes;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		802B055C1EE079FD0000A39B /* EmersonQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmersonQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		802B055F1EE079FD0000A39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		802B05611EE079FD0000A39B /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
-		802B05641EE079FD0000A39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		802B05661EE079FE0000A39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		802B05691EE079FE0000A39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		802B056B1EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmersonQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmersonQuotesTests.swift; sourceTree = "<group>"; };
-		802B05761EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmersonQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmersonQuotesUITests.swift; sourceTree = "<group>"; };
-		802B05811EE079FE0000A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		802B05591EE079FD0000A39B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B056D1EE079FE0000A39B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B05781EE079FE0000A39B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		802B05531EE079FD0000A39B = {
-			isa = PBXGroup;
-			children = (
-				802B055E1EE079FD0000A39B /* EmersonQuotes */,
-				802B05731EE079FE0000A39B /* EmersonQuotesTests */,
-				802B057E1EE079FE0000A39B /* EmersonQuotesUITests */,
-				802B055D1EE079FD0000A39B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		802B055D1EE079FD0000A39B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				802B055C1EE079FD0000A39B /* EmersonQuotes.app */,
-				802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */,
-				802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		802B055E1EE079FD0000A39B /* EmersonQuotes */ = {
-			isa = PBXGroup;
-			children = (
-				802B055F1EE079FD0000A39B /* AppDelegate.swift */,
-				802B05611EE079FD0000A39B /* QuotesViewController.swift */,
-				802B05631EE079FD0000A39B /* Main.storyboard */,
-				802B05661EE079FE0000A39B /* Assets.xcassets */,
-				802B05681EE079FE0000A39B /* LaunchScreen.storyboard */,
-				802B056B1EE079FE0000A39B /* Info.plist */,
-			);
-			path = EmersonQuotes;
-			sourceTree = "<group>";
-		};
-		802B05731EE079FE0000A39B /* EmersonQuotesTests */ = {
-			isa = PBXGroup;
-			children = (
-				802B05741EE079FE0000A39B /* EmersonQuotesTests.swift */,
-				802B05761EE079FE0000A39B /* Info.plist */,
-			);
-			path = EmersonQuotesTests;
-			sourceTree = "<group>";
-		};
-		802B057E1EE079FE0000A39B /* EmersonQuotesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				802B057F1EE079FE0000A39B /* EmersonQuotesUITests.swift */,
-				802B05811EE079FE0000A39B /* Info.plist */,
-			);
-			path = EmersonQuotesUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		802B055B1EE079FD0000A39B /* EmersonQuotes */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 802B05841EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotes" */;
-			buildPhases = (
-				802B05581EE079FD0000A39B /* Sources */,
-				802B05591EE079FD0000A39B /* Frameworks */,
-				802B055A1EE079FD0000A39B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EmersonQuotes;
-			productName = EmersonQuotes;
-			productReference = 802B055C1EE079FD0000A39B /* EmersonQuotes.app */;
-			productType = "com.apple.product-type.application";
-		};
-		802B056F1EE079FE0000A39B /* EmersonQuotesTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 802B05871EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesTests" */;
-			buildPhases = (
-				802B056C1EE079FE0000A39B /* Sources */,
-				802B056D1EE079FE0000A39B /* Frameworks */,
-				802B056E1EE079FE0000A39B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				802B05721EE079FE0000A39B /* PBXTargetDependency */,
-			);
-			name = EmersonQuotesTests;
-			productName = EmersonQuotesTests;
-			productReference = 802B05701EE079FE0000A39B /* EmersonQuotesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		802B057A1EE079FE0000A39B /* EmersonQuotesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 802B058A1EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesUITests" */;
-			buildPhases = (
-				802B05771EE079FE0000A39B /* Sources */,
-				802B05781EE079FE0000A39B /* Frameworks */,
-				802B05791EE079FE0000A39B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				802B057D1EE079FE0000A39B /* PBXTargetDependency */,
-			);
-			name = EmersonQuotesUITests;
-			productName = EmersonQuotesUITests;
-			productReference = 802B057B1EE079FE0000A39B /* EmersonQuotesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		802B05541EE079FD0000A39B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = smalam119;
-				TargetAttributes = {
-					802B055B1EE079FD0000A39B = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = U8E3GD9MRV;
-						ProvisioningStyle = Automatic;
-					};
-					802B056F1EE079FE0000A39B = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = U8E3GD9MRV;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 802B055B1EE079FD0000A39B;
-					};
-					802B057A1EE079FE0000A39B = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = U8E3GD9MRV;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 802B055B1EE079FD0000A39B;
-					};
-				};
-			};
-			buildConfigurationList = 802B05571EE079FD0000A39B /* Build configuration list for PBXProject "EmersonQuotes" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 802B05531EE079FD0000A39B;
-			productRefGroup = 802B055D1EE079FD0000A39B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				802B055B1EE079FD0000A39B /* EmersonQuotes */,
-				802B056F1EE079FE0000A39B /* EmersonQuotesTests */,
-				802B057A1EE079FE0000A39B /* EmersonQuotesUITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		802B055A1EE079FD0000A39B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802B056A1EE079FE0000A39B /* LaunchScreen.storyboard in Resources */,
-				802B05671EE079FE0000A39B /* Assets.xcassets in Resources */,
-				802B05651EE079FD0000A39B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B056E1EE079FE0000A39B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B05791EE079FE0000A39B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		802B05581EE079FD0000A39B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802B05621EE079FD0000A39B /* QuotesViewController.swift in Sources */,
-				802B05601EE079FD0000A39B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B056C1EE079FE0000A39B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802B05751EE079FE0000A39B /* EmersonQuotesTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		802B05771EE079FE0000A39B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802B05801EE079FE0000A39B /* EmersonQuotesUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		802B05721EE079FE0000A39B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 802B055B1EE079FD0000A39B /* EmersonQuotes */;
-			targetProxy = 802B05711EE079FE0000A39B /* PBXContainerItemProxy */;
-		};
-		802B057D1EE079FE0000A39B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 802B055B1EE079FD0000A39B /* EmersonQuotes */;
-			targetProxy = 802B057C1EE079FE0000A39B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		802B05631EE079FD0000A39B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				802B05641EE079FD0000A39B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		802B05681EE079FE0000A39B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				802B05691EE079FE0000A39B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		802B05821EE079FE0000A39B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		802B05831EE079FE0000A39B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		802B05851EE079FE0000A39B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		802B05861EE079FE0000A39B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotes;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		802B05881EE079FE0000A39B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes";
-			};
-			name = Debug;
-		};
-		802B05891EE079FE0000A39B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes";
-			};
-			name = Release;
-		};
-		802B058B1EE079FE0000A39B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = EmersonQuotes;
-			};
-			name = Debug;
-		};
-		802B058C1EE079FE0000A39B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = U8E3GD9MRV;
-				INFOPLIST_FILE = EmersonQuotesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.smalam119.EmersonQuotesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = EmersonQuotes;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		802B05571EE079FD0000A39B /* Build configuration list for PBXProject "EmersonQuotes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B05821EE079FE0000A39B /* Debug */,
-				802B05831EE079FE0000A39B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		802B05841EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotes" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B05851EE079FE0000A39B /* Debug */,
-				802B05861EE079FE0000A39B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		802B05871EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B05881EE079FE0000A39B /* Debug */,
-				802B05891EE079FE0000A39B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		802B058A1EE079FE0000A39B /* Build configuration list for PBXNativeTarget "EmersonQuotesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				802B058B1EE079FE0000A39B /* Debug */,
-				802B058C1EE079FE0000A39B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 802B05541EE079FD0000A39B /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>11AEADE02F1C7F7B9F7FF0BB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotesTests/Pods-EmersonQuotesTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>23AA304F186A2BA3AF0F5760</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotesUITests/Pods-EmersonQuotesUITests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>295387E983C62B1348519729</key>
+		<dict>
+			<key>fileRef</key>
+			<string>68C920C633CC2E1375269D05</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>39D1A4B2D1AF42107D06E1AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotesUITests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotesUITests/Pods-EmersonQuotesUITests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>574214CB5AEE21330376A823</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>8147FA72BB1DE8F491B9B49D</string>
+				<string>68C920C633CC2E1375269D05</string>
+				<string>E774087DDA3B3A8058220B1F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5C7C5F36B0AAD1822B846C89</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6150AE7840F6C631EF7D0469</string>
+				<string>E14EA6271B507221A448A215</string>
+				<string>EE338887E090D24417613155</string>
+				<string>F16B0A8C018760160858ABBB</string>
+				<string>39D1A4B2D1AF42107D06E1AF</string>
+				<string>63BEBA04F31D1BDA27C6065A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60754BAF97D6BC5484A552CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8147FA72BB1DE8F491B9B49D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6150AE7840F6C631EF7D0469</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotes.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotes/Pods-EmersonQuotes.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>63BEBA04F31D1BDA27C6065A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotesUITests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotesUITests/Pods-EmersonQuotesUITests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66E7440536704DA7ACDBED21</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotesUITests/Pods-EmersonQuotesUITests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>68C920C633CC2E1375269D05</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_EmersonQuotesTests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>707F15C6CCE093793ED989C2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotes/Pods-EmersonQuotes-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>7CEAC27676DB38873B0A9DD1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotesTests/Pods-EmersonQuotesTests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>802B05531EE079FD0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B055E1EE079FD0000A39B</string>
+				<string>802B05731EE079FE0000A39B</string>
+				<string>802B057E1EE079FE0000A39B</string>
+				<string>802B055D1EE079FD0000A39B</string>
+				<string>5C7C5F36B0AAD1822B846C89</string>
+				<string>574214CB5AEE21330376A823</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05541EE079FD0000A39B</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0830</string>
+				<key>LastUpgradeCheck</key>
+				<string>0830</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>smalam119</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>802B055B1EE079FD0000A39B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.2</string>
+						<key>DevelopmentTeam</key>
+						<string>U8E3GD9MRV</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>802B056F1EE079FE0000A39B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.2</string>
+						<key>DevelopmentTeam</key>
+						<string>U8E3GD9MRV</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>802B055B1EE079FD0000A39B</string>
+					</dict>
+					<key>802B057A1EE079FE0000A39B</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.3.2</string>
+						<key>DevelopmentTeam</key>
+						<string>U8E3GD9MRV</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>802B055B1EE079FD0000A39B</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>802B05571EE079FD0000A39B</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>802B05531EE079FD0000A39B</string>
+			<key>productRefGroup</key>
+			<string>802B055D1EE079FD0000A39B</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>802B055B1EE079FD0000A39B</string>
+				<string>802B056F1EE079FE0000A39B</string>
+				<string>802B057A1EE079FE0000A39B</string>
+			</array>
+		</dict>
+		<key>802B05571EE079FD0000A39B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>802B05821EE079FE0000A39B</string>
+				<string>802B05831EE079FE0000A39B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>802B05581EE079FD0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>802B05621EE079FD0000A39B</string>
+				<string>802B058E1EE095990000A39B</string>
+				<string>802B05601EE079FD0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B05591EE079FD0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>60754BAF97D6BC5484A552CE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B055A1EE079FD0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>802B056A1EE079FE0000A39B</string>
+				<string>802B05671EE079FE0000A39B</string>
+				<string>802B05651EE079FD0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B055B1EE079FD0000A39B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>802B05841EE079FE0000A39B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CDE6471573AAFF028810B52E</string>
+				<string>802B05581EE079FD0000A39B</string>
+				<string>802B05591EE079FD0000A39B</string>
+				<string>802B055A1EE079FD0000A39B</string>
+				<string>707F15C6CCE093793ED989C2</string>
+				<string>BC77894CC787E47520691927</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>EmersonQuotes</string>
+			<key>productName</key>
+			<string>EmersonQuotes</string>
+			<key>productReference</key>
+			<string>802B055C1EE079FD0000A39B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>802B055C1EE079FD0000A39B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>EmersonQuotes.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>802B055D1EE079FD0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B055C1EE079FD0000A39B</string>
+				<string>802B05701EE079FE0000A39B</string>
+				<string>802B057B1EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B055E1EE079FD0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B055F1EE079FD0000A39B</string>
+				<string>802B05611EE079FD0000A39B</string>
+				<string>802B05631EE079FD0000A39B</string>
+				<string>802B05661EE079FE0000A39B</string>
+				<string>802B05681EE079FE0000A39B</string>
+				<string>802B056B1EE079FE0000A39B</string>
+				<string>802B058D1EE095990000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>EmersonQuotes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B055F1EE079FD0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05601EE079FD0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B055F1EE079FD0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05611EE079FD0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>QuotesViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05621EE079FD0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B05611EE079FD0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05631EE079FD0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B05641EE079FD0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05641EE079FD0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05651EE079FD0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B05631EE079FD0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05661EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05671EE079FE0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B05661EE079FE0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05681EE079FE0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B05691EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05691EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B056A1EE079FE0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B05681EE079FE0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B056B1EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B056C1EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>802B05751EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B056D1EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>295387E983C62B1348519729</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B056E1EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B056F1EE079FE0000A39B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>802B05871EE079FE0000A39B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F4B8915F6F4FBFA19A6DE420</string>
+				<string>802B056C1EE079FE0000A39B</string>
+				<string>802B056D1EE079FE0000A39B</string>
+				<string>802B056E1EE079FE0000A39B</string>
+				<string>7CEAC27676DB38873B0A9DD1</string>
+				<string>11AEADE02F1C7F7B9F7FF0BB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>802B05721EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>EmersonQuotesTests</string>
+			<key>productName</key>
+			<string>EmersonQuotesTests</string>
+			<key>productReference</key>
+			<string>802B05701EE079FE0000A39B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>802B05701EE079FE0000A39B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>EmersonQuotesTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>802B05711EE079FE0000A39B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>802B05541EE079FD0000A39B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>802B055B1EE079FD0000A39B</string>
+			<key>remoteInfo</key>
+			<string>EmersonQuotes</string>
+		</dict>
+		<key>802B05721EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>802B055B1EE079FD0000A39B</string>
+			<key>targetProxy</key>
+			<string>802B05711EE079FE0000A39B</string>
+		</dict>
+		<key>802B05731EE079FE0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B05741EE079FE0000A39B</string>
+				<string>802B05761EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>EmersonQuotesTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05741EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>EmersonQuotesTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05751EE079FE0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B05741EE079FE0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05761EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05771EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>802B05801EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B05781EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F6C1DF92E43F6DCFEC05412A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B05791EE079FE0000A39B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>802B057A1EE079FE0000A39B</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>802B058A1EE079FE0000A39B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>CD912E2889DBFC832E189396</string>
+				<string>802B05771EE079FE0000A39B</string>
+				<string>802B05781EE079FE0000A39B</string>
+				<string>802B05791EE079FE0000A39B</string>
+				<string>23AA304F186A2BA3AF0F5760</string>
+				<string>66E7440536704DA7ACDBED21</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>802B057D1EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>EmersonQuotesUITests</string>
+			<key>productName</key>
+			<string>EmersonQuotesUITests</string>
+			<key>productReference</key>
+			<string>802B057B1EE079FE0000A39B</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>802B057B1EE079FE0000A39B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>EmersonQuotesUITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>802B057C1EE079FE0000A39B</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>802B05541EE079FD0000A39B</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>802B055B1EE079FD0000A39B</string>
+			<key>remoteInfo</key>
+			<string>EmersonQuotes</string>
+		</dict>
+		<key>802B057D1EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>802B055B1EE079FD0000A39B</string>
+			<key>targetProxy</key>
+			<string>802B057C1EE079FE0000A39B</string>
+		</dict>
+		<key>802B057E1EE079FE0000A39B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>802B057F1EE079FE0000A39B</string>
+				<string>802B05811EE079FE0000A39B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>EmersonQuotesUITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B057F1EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>EmersonQuotesUITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05801EE079FE0000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B057F1EE079FE0000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>802B05811EE079FE0000A39B</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B05821EE079FE0000A39B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>802B05831EE079FE0000A39B</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>802B05841EE079FE0000A39B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>802B05851EE079FE0000A39B</string>
+				<string>802B05861EE079FE0000A39B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>802B05851EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6150AE7840F6C631EF7D0469</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotes/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotes</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>802B05861EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E14EA6271B507221A448A215</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotes/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotes</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>802B05871EE079FE0000A39B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>802B05881EE079FE0000A39B</string>
+				<string>802B05891EE079FE0000A39B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>802B05881EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>EE338887E090D24417613155</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotesTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotesTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>802B05891EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F16B0A8C018760160858ABBB</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotesTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotesTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/EmersonQuotes.app/EmersonQuotes</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>802B058A1EE079FE0000A39B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>802B058B1EE079FE0000A39B</string>
+				<string>802B058C1EE079FE0000A39B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>802B058B1EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>39D1A4B2D1AF42107D06E1AF</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotesUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotesUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>EmersonQuotes</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>802B058C1EE079FE0000A39B</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>63BEBA04F31D1BDA27C6065A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>U8E3GD9MRV</string>
+				<key>INFOPLIST_FILE</key>
+				<string>EmersonQuotesUITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>com.smalam119.EmersonQuotesUITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>EmersonQuotes</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>802B058D1EE095990000A39B</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Stack.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>802B058E1EE095990000A39B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>802B058D1EE095990000A39B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8147FA72BB1DE8F491B9B49D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_EmersonQuotes.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BC77894CC787E47520691927</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-EmersonQuotes/Pods-EmersonQuotes-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>CD912E2889DBFC832E189396</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [ $? != 0 ] ; then
+    # print error to STDERR
+    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>CDE6471573AAFF028810B52E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [ $? != 0 ] ; then
+    # print error to STDERR
+    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E14EA6271B507221A448A215</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotes.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotes/Pods-EmersonQuotes.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E774087DDA3B3A8058220B1F</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_EmersonQuotesUITests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>EE338887E090D24417613155</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotesTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotesTests/Pods-EmersonQuotesTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F16B0A8C018760160858ABBB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-EmersonQuotesTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-EmersonQuotesTests/Pods-EmersonQuotesTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4B8915F6F4FBFA19A6DE420</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>[CP] Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [ $? != 0 ] ; then
+    # print error to STDERR
+    echo "error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation." &gt;&amp;2
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>F6C1DF92E43F6DCFEC05412A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E774087DDA3B3A8058220B1F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>802B05541EE079FD0000A39B</string>
+</dict>
+</plist>

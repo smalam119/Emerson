@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ObservableArray-RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EmersonQuotes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EmersonQuotesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-EmersonQuotesUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RxSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>58B0BC4E19C8E9A96B47518DDB2C5D68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E01F98DAC746FA8E6BEC8DFF3128400</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B97180E4629A6D68E15D718F4B8A0175</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF4F8E6017C069067D2BC59427E06102</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA3DBE5ADF242AF9BC3E5FD8BDCE4908</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

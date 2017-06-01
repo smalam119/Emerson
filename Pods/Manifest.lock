@@ -1,0 +1,15 @@
+PODS:
+  - ObservableArray-RxSwift (0.1.1):
+    - RxSwift (~> 3.0)
+  - RxSwift (3.2.0)
+
+DEPENDENCIES:
+  - ObservableArray-RxSwift
+
+SPEC CHECKSUMS:
+  ObservableArray-RxSwift: 1ade2543c0eec6fc64a84080c7e3c9bafbc6c760
+  RxSwift: 46574f70d416b7923c237195939cc488a7fbf3a0
+
+PODFILE CHECKSUM: 8f91e6540d98d677345af3357b9cd7699ec5bfc8
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,6 @@
+framework module Pods_EmersonQuotes {
+  umbrella header "Pods-EmersonQuotes-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_EmersonQuotesUITests {
+  umbrella header "Pods-EmersonQuotesUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
