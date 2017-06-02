@@ -17,8 +17,8 @@ struct Stack {
         array.append(uiView);
     }
     
-    mutating func pop() -> UIView? {
-        return array.popLast();
+    mutating func pop() {
+        array.popLast();
     }
     
     func peek() -> UIView? {

@@ -43,15 +43,25 @@ class QuotesViewController: UIViewController {
         quoteViewArray = quoteViewContainer.subviews;
         makeAllViewInvisible()
         observableStack.push((quoteViewArray?[quoteViewIndex])!)
-        observableStack.array.rx_elements().subscribe { event in
+        _ = observableStack.array.rx_elements().subscribe { event in
             switch event {
             case .next(let value):
                 print("onNext\(value)")
                 self.showUIView(uiView: value.last!)
                 self.updateNavBarLabel(number: self.quoteViewIndex + 1)
-                print(self.quoteViewIndex)
+                
+                if(self.observableStack.getSize() == 1) {
+                    self.disable(button: self.backButton)
+                } else if(self.observableStack.getSize() == (self.quoteViewArray?.count)!) {
+                    self.disable(button: self.nextButton)
+                } else {
+                    self.enableBackButton()
+                    self.enableNextButton()
+                }
+                
             case .error(let error):
                 print(error)
+                
             case .completed:
                 print("completed")
             }
@@ -87,12 +97,11 @@ class QuotesViewController: UIViewController {
     
     func enableBackButton() {
         backButton.setImage(UIImage(named: "back") , for: .normal)
-        backButton.isUserInteractionEnabled = false
+        backButton.isUserInteractionEnabled = true
     }
     
     func enableNextButton() {
         nextButton.setImage(UIImage(named: "next") , for: .normal)
-        nextButton.isUserInteractionEnabled = false
+        nextButton.isUserInteractionEnabled = true
     }
 }
-
