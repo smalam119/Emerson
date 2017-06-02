@@ -16,9 +16,8 @@ class QuotesViewController: UIViewController {
     
     @IBOutlet weak var quoteViewContainer: UIView!
     @IBOutlet weak var quoteNumberLabel: UILabel!
-    @IBOutlet weak var quoteOneView: UIView!
-    @IBOutlet weak var quoteTwoView: UIView!
-    @IBOutlet weak var quoteThreeView: UIView!
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var backButton: UIButton!
     
     @IBAction func onPressBackButton(_ sender: Any) {
         if(observableStack.getSize() > 1) {
@@ -49,6 +48,8 @@ class QuotesViewController: UIViewController {
             case .next(let value):
                 print("onNext\(value)")
                 self.showUIView(uiView: value.last!)
+                self.updateNavBarLabel(number: self.quoteViewIndex + 1)
+                print(self.quoteViewIndex)
             case .error(let error):
                 print(error)
             case .completed:
@@ -73,6 +74,25 @@ class QuotesViewController: UIViewController {
     
     func hideUIView(uiView: UIView) {
         uiView.isHidden = true
+    }
+    
+    func updateNavBarLabel(number: Int) {
+        quoteNumberLabel.text = "Quotes No.\(number)"
+    }
+    
+    func disable(button: UIButton) {
+        button.setImage(nil, for: .normal)
+        button.isUserInteractionEnabled = false
+    }
+    
+    func enableBackButton() {
+        backButton.setImage(UIImage(named: "back") , for: .normal)
+        backButton.isUserInteractionEnabled = false
+    }
+    
+    func enableNextButton() {
+        nextButton.setImage(UIImage(named: "next") , for: .normal)
+        nextButton.isUserInteractionEnabled = false
     }
 }
 

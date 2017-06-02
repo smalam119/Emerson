@@ -152,15 +152,15 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="quoteOneView" destination="6ef-Zi-dCg" id="6cP-Z5-rZ7"/>
-                        <outlet property="quoteThreeView" destination="sdI-XB-KUg" id="Kbn-J9-RWn"/>
-                        <outlet property="quoteTwoView" destination="UJH-ee-2J9" id="dOo-et-dAo"/>
+                        <outlet property="backButton" destination="XbS-Uy-j5M" id="MMO-jE-X7W"/>
+                        <outlet property="nextButton" destination="njO-Z8-2WH" id="5FX-pY-AW3"/>
+                        <outlet property="quoteNumberLabel" destination="s03-hp-0cr" id="kSf-D2-I61"/>
                         <outlet property="quoteViewContainer" destination="qD1-dM-jj8" id="Dia-qu-F0J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="163"/>
+            <point key="canvasLocation" x="-164" y="170"/>
         </scene>
     </scenes>
     <resources>
