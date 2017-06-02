@@ -25,24 +25,24 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qD1-dM-jj8">
                                 <rect key="frame" x="0.0" y="81" width="375" height="586"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-Zi-dCg">
+                                    <view contentMode="scaleToFill" restorationIdentifier="one" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-Zi-dCg">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="586"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Always do what you are afraid to do." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ar-WI-eS7">
                                                 <rect key="frame" x="8" y="283.5" width="359" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.98039215690000003" green="0.80392156859999997" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.58823529411764708" green="0.5607843137254902" blue="0.67843137254901964" alpha="0.8045269692" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.58823529411764708" green="0.5607843137254902" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="9ar-WI-eS7" secondAttribute="trailing" constant="8" id="Kl4-Bm-WJT"/>
                                             <constraint firstItem="9ar-WI-eS7" firstAttribute="leading" secondItem="6ef-Zi-dCg" secondAttribute="leading" constant="8" id="Tpl-6e-bxd"/>
                                             <constraint firstItem="9ar-WI-eS7" firstAttribute="centerY" secondItem="6ef-Zi-dCg" secondAttribute="centerY" id="mxO-hb-JTF"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UJH-ee-2J9">
+                                    <view contentMode="scaleToFill" restorationIdentifier="two" translatesAutoresizingMaskIntoConstraints="NO" id="UJH-ee-2J9">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="586"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing great was ever achieved without enthusiasm." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q98-qH-iAv">
@@ -59,12 +59,12 @@
                                             <constraint firstAttribute="trailing" secondItem="q98-qH-iAv" secondAttribute="trailing" constant="8" id="jaI-46-qCZ"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sdI-XB-KUg">
+                                    <view contentMode="scaleToFill" restorationIdentifier="three" translatesAutoresizingMaskIntoConstraints="NO" id="sdI-XB-KUg">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="586"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nothing can bring you peace but yourself." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7MP-iR-zWR">
                                                 <rect key="frame" x="8" y="283.5" width="359" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" red="0.98039215690000003" green="0.80392156859999997" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -122,7 +122,6 @@
                                         </constraints>
                                         <state key="normal" image="next"/>
                                         <connections>
-                                            <action selector="onPressBackButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6SQ-Dg-XIA"/>
                                             <action selector="onPressNextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Vt-M9-Bdz"/>
                                         </connections>
                                     </button>
@@ -156,11 +155,12 @@
                         <outlet property="quoteOneView" destination="6ef-Zi-dCg" id="6cP-Z5-rZ7"/>
                         <outlet property="quoteThreeView" destination="sdI-XB-KUg" id="Kbn-J9-RWn"/>
                         <outlet property="quoteTwoView" destination="UJH-ee-2J9" id="dOo-et-dAo"/>
+                        <outlet property="quoteViewContainer" destination="qD1-dM-jj8" id="Dia-qu-F0J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-60" y="164"/>
+            <point key="canvasLocation" x="129" y="163"/>
         </scene>
     </scenes>
     <resources>

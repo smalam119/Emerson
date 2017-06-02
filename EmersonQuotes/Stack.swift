@@ -26,4 +26,8 @@ struct Stack {
         
     }
     
+    func getSize() -> Int {
+        return array.count;
+    }
+    
 }
