@@ -17,7 +17,10 @@ class QuotesViewController: UIViewController {
     
     @IBAction func onPressBackButton(_ sender: Any) {
     }
-
+    
+    @IBAction func onPressNextButton(_ sender: Any) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad();
     }
