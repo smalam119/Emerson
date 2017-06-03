@@ -20,33 +20,26 @@ class QuotesViewController: UIViewController {
     @IBOutlet weak var backButton: UIButton!
     
     @IBAction func onPressBackButton(_ sender: Any) {
-        if(observableStack.getSize() > 1) {
-            hideUIView(uiView: (quoteViewArray?[quoteViewIndex])!)
-            quoteViewIndex -= 1
-            observableStack.pop()
-        } else {
-            print("can not go back")
-        }
+        hideUIView(uiView: (quoteViewArray?[quoteViewIndex])!)
+        quoteViewIndex -= 1
+        observableStack.pop()
     }
     
     @IBAction func onPressNextButton(_ sender: Any) {
-        if(quoteViewIndex < (quoteViewArray?.count)! - 1) {
-            quoteViewIndex += 1
-            observableStack.push((quoteViewArray?[quoteViewIndex])!)
-        } else {
-            print("no more views")
-        }
+        quoteViewIndex += 1
+        observableStack.push((quoteViewArray?[quoteViewIndex])!)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         quoteViewArray = quoteViewContainer.subviews;
         makeAllViewInvisible()
         observableStack.push((quoteViewArray?[quoteViewIndex])!)
+        
         _ = observableStack.array.rx_elements().subscribe { event in
             switch event {
             case .next(let value):
-                print("onNext\(value)")
                 self.showUIView(uiView: value.last!)
                 self.updateNavBarLabel(number: self.quoteViewIndex + 1)
                 
